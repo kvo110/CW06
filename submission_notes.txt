@@ -1,0 +1,37 @@
+CW06 MySQL + PHP Submission Notes
+
+For this assignment, I created a PHP and MySQL employee database demo.
+
+Files included:
+employee_demo.php
+db.php
+styles.css
+create_table.sql
+sample_data.sql
+submission_notes.txt
+
+The employee_demo.php file contains the main form and PHP logic.
+The db.php file keeps the database connection separate from the page logic.
+The styles.css file gives the page a clean and professional design.
+The create_table.sql file contains the SQL needed to create the employees table.
+The sample_data.sql file contains one sample employee insert statement.
+The submission_notes.txt file explains what was completed.
+
+The form collects:
+Employee Name
+Job Name
+Salary
+Hire Date
+Department ID
+Department Name
+
+The PHP page validates the form before saving.
+The PHP insert uses a prepared statement instead of putting form values directly inside the SQL query.
+This makes the database insert safer and more professional.
+
+After MySQL access is fixed, the only remaining steps are:
+1. Update the password in db.php.
+2. Log into MySQL.
+3. Run create_table.sql.
+4. Test employee_demo.php in the browser.
+5. Submit the working link and files.
